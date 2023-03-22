@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("https: //fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+}
+a:link{
+    text-decoration: none!important;
+}
+.Navbar{
+    display: flex;
+    flex-direction: row;
+      
+}
+.Logo{
+    padding: 20px 200px 0px 20px;
+    height: 103px; 
+    width: 103px;
+}
+.Navbar ul{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.Navbar ul li{
+    font-family: 'Open Sans',sans-serif;
+    color: #609966;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.serch{
+
+    padding: 30px 30px ;
+    display: flex;
+    height: 70px;
+    width: 70px;
+}
+.nigga ul li a{
+    text-decoration: none!important;
+
+}
