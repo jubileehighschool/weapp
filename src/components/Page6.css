@@ -1,0 +1,163 @@
+
+
+.blog-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.img-blog{
+    height: 150px;
+    width: 90%;
+}
+
+.card-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ECE9E6;
+  background: linear-gradient( #FFFFFF);
+  margin: 20px;
+  transition: 0.4s;
+}
+
+.cards:hover{
+    box-shadow: 5px 10px #88d58f;
+}
+
+
+.card-info{
+    padding: 25px;
+}
+
+
+.card-info h4{
+    margin: auto;
+  text-align: left;
+  font-size: 26px;
+}
+
+.card-info p{
+    text-align: justify;
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 18px;
+}
+
+
+
+button {
+    background-color: #3EDD84;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    /* display: block; */
+    font-size: 16px;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: 'merriweather';
+    transition: 0.4s;
+}
+
+
+button:hover{
+    background-color:#237e4b ;
+    color: white;
+}
+
+
+
+
+
+
+/* -------------------- GALLERY ---------------------------- */
+
+
+
+.gallery-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.gallery-img{
+    height: 84%;
+    width: 92%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    border-radius: 6px;
+}
+
+
+.title-gallery {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+
+.container-gallery{
+    padding-top: 30px;
+    padding-left: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 38px;
+}
+
+
+
+.card-gallery{
+    margin-right: 70px;
+    display: flex;
+    height: 280px;
+    width: 220px;
+    background-color: #4b5443;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #6c8667;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+
+.card-gallery:not(:first-child) {
+    margin-left: -50px;
+}
+
+
+.card-gallery:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+
+
+.card-gallery:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }

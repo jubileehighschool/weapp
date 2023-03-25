@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from "./components/Home"
 import Page3 from './components/Page3';
 import Page4 from './components/Page4';
+import Page6 from './components/Page6';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <div className= 'App' >
     
     <Routes>
-      <Route path='/' element={<div className='home'><Page4/></div>}/>
+      <Route path='/' element={<div className='home'><Page6/></div>}/>
       
     </Routes>
     
