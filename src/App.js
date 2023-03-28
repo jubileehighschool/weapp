@@ -9,13 +9,14 @@ import Page6 from './components/Page6';
 
 
 function App() {
+
+  
   return (
     <Router>    
     <div className= 'App' >
     
     <Routes>
       <Route path='/' element={<div className='home'><Page6/></div>}/>
-      
     </Routes>
     
     

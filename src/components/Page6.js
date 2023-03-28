@@ -24,7 +24,7 @@ function Page6  ()  {
         <div className='card-gallery'>
         <h3 className="title-gallery">Card 2</h3>
             <div className='gallery-img'>
-               <img className='gallery-img' src={blog2} alt='school' />
+               <img className='gallery-img' src={blog2} alt='school'  />
             </div>
         </div>
 
