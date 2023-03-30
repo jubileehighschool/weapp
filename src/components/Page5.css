@@ -1,0 +1,122 @@
+
+
+.title{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    margin: 14px 0px 0px 0px;
+    padding: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+span {
+    color: #237e4b;
+}
+
+.title h3 {
+    margin: 4px 0px 0px 0px;
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+.main-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.message-container{
+    margin: 20px;
+    transition: 0.4s;
+}
+
+.message-container:hover{
+    border-radius: 6px;
+    box-shadow: 5px 10px rgba(144, 238, 144, 0.569);
+}
+
+
+.msg-cont{
+    margin: 20px;
+    transition: 0.4s;
+}
+
+.msg-cont input {
+    height: 300px;
+    width: 340px;
+    border-radius: 6px;
+}
+
+
+.text-container h3 {
+    font-weight: 500;
+}
+
+.text-container h4 {
+    font-weight: 500;
+}
+
+button {
+    background-color: #3EDD84;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    /* display: block; */
+    font-size: 16px;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: 'merriweather';
+    transition: 0.4s;
+}
+
+
+button:hover{
+    background-color:#237e4b ;
+    color: white;
+}
+
+
+.button{
+    margin-left: 20px;
+}
+
+
+.footer{
+    display: grid;
+    margin: 16px 45px;
+}
+
+.footer h2{
+    margin: 0;
+    padding-top: 25px;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icons h3{
+    padding: 0px 0px 0px 5px;
+}
+
+.map iframe{
+    border-radius: 10px;
+    width: 60%;
+    height: 220px;
+    margin: 10px 0px 0px 20%;
+    border: 3px solid #237e4b;
+}
+
+

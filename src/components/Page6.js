@@ -1,80 +1,73 @@
 import React from 'react'
 import './Page6.css'
+import Carousel from 'react-elastic-carousel'
+import ItemGalley from './ItemGalley'
 import blog1 from "../components/images/blog-1.jpg"
 import blog2 from "../components/images/blog-2.jpg"
 import blog3 from "../components/images/blog-3.jpg"
 
-function Page6  ()  {
-  return (
-    <>
+function Page6() {
 
-    <div className='gallery-title'>
-        <h1>Gallery</h1>
-    </div>
 
-    <div className='container-gallery'>
+    const breakPoints= [ {
+        width:768, itemsToShow:3
+    }]
 
-        <div className='card-gallery'>
-        <h3 className="title-gallery">Card 1</h3>
-            <div className='gallery-img'>
-               <img className='gallery-img' src={blog1} alt='school' />
+    return (
+        <>
+
+            <div className='gallery-title'>
+                <h1>Gallery</h1>
             </div>
-        </div>
 
-        <div className='card-gallery'>
-        <h3 className="title-gallery">Card 2</h3>
-            <div className='gallery-img'>
-               <img className='gallery-img' src={blog2} alt='school'  />
+
+
+
+            <div className='conatiner-gallery'>
+                <Carousel breakPoints={breakPoints}>
+                    <ItemGalley><img src={blog3} alt='school' /></ItemGalley>
+                    <ItemGalley><img src={blog2} alt='school' /></ItemGalley>
+                    <ItemGalley><img src={blog1} alt='school' /></ItemGalley>
+                </Carousel>
             </div>
-        </div>
 
-        <div className='card-gallery'>
-        <h3 className="title-gallery">Card 3</h3>
-            <div className='gallery-img'>
-               <img className='gallery-img' src={blog3} alt='school' />
+
+
+
+            {/* ----------------------   BLOG SECTION    ---------------------------------------*/}
+
+            <div className='blog-title'>
+                <h1>Blogs</h1>
             </div>
-        </div>
-        
-    </div>    
-
-
-
-
-
-    {/* ----------------------   BLOG SECTION    ---------------------------------------*/}
-
-    <div className='blog-title'>
-        <h1>Blogs</h1>
-    </div>
-    <div className='card-main'>
-        <div className='cards'>
-            <div className='card-info'>
-                <img className='img-blog' src={blog1} alt='school' />
-            <h4>Blog-1</h4>
-            <p>This is blog one</p>
-            <button>Read More</button>
+            <div className='card-main'>
+                <div className='cards'>
+                    <div className='card-info'>
+                        <img className='img-blog' src={blog1} alt='school' />
+                        <h4>Blog-1</h4>
+                        <p>This is blog one</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div className='cards'>
+                    <div className='card-info'>
+                        <img className='img-blog' src={blog2} alt='school management' />
+                        <h4>Blog-2</h4>
+                        <p>This is blog two</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div className='cards'>
+                    <div className='card-info'>
+                        <img className='img-blog' src={blog3} alt='management' />
+                        <h4>Blog-3</h4>
+                        <p>This is blog three</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div className='cards'>
-            <div className='card-info'>
-            <img className='img-blog' src={blog2} alt='school management' />
-            <h4>Blog-2</h4>
-            <p>This is blog two</p>
-            <button>Read More</button>
-            </div>
-        </div>
-        <div className='cards'>
-            <div className='card-info'>
-            <img className='img-blog' src={blog3} alt='management' />
-            <h4>Blog-3</h4>
-            <p>This is blog three</p>
-            <button>Read More</button>
-            </div>
-        </div>
-    </div>
 
-    </>
-  )
+        </>
+    )
 }
 
 export default Page6

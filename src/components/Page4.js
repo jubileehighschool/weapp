@@ -45,6 +45,8 @@ function Page4() {
               <input type="number" name="number" required="" />
               <label htmlFor="class">Class:</label>
               <input type="text" name="class" required="" />
+              <label htmlFor="enquire">Feel free to ask anything:</label>
+              <input type="text" name="enquire" required="" />
               <button type="submit">Submit</button>
             </form>
           </div>

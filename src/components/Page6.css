@@ -100,6 +100,11 @@ button:hover{
     font-weight: 300;
 }
 
+.gallery-title h1{
+   padding: 0px; 
+   margin: 15px 0px 10px;
+}
+
 .gallery-img{
     height: 84%;
     width: 92%;
@@ -129,38 +134,6 @@ button:hover{
     padding-bottom: 38px;
 }
 
-
-
-.card-gallery{
-    margin-right: 70px;
-    display: flex;
-    height: 280px;
-    width: 220px;
-    background-color: #4b5443;
-    border-radius: 10px;
-    box-shadow: -1rem 0 3rem #6c8667;
-    transition: 0.4s ease-out;
-    position: relative;
-    left: 0px;
-}
-
-
-.card-gallery:not(:first-child) {
-    margin-left: -50px;
-}
-
-
-.card-gallery:hover {
-    transform: translateY(-20px);
-    transition: 0.4s ease-out;
-}
-
-
-.card-gallery:hover ~ .card {
-    position: relative;
-    left: 50px;
-    transition: 0.4s ease-out;
-  }
 
 
   
