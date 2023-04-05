@@ -1,17 +1,26 @@
 import React from 'react'
 import './Page6.css'
 import Carousel from 'react-elastic-carousel'
-import ItemGalley from './ItemGalley'
 import blog1 from "../components/images/blog-1.jpg"
 import blog2 from "../components/images/blog-2.jpg"
 import blog3 from "../components/images/blog-3.jpg"
 
+
+
+const items = [
+    { id: 1, url: blog1 },
+    { id: 2, url: blog2 },
+    { id: 3, url: blog3 },
+    { id: 4, url: blog1 },
+    { id: 5, url: blog2 },
+    { id: 5, url: blog3 },
+];
+
+
 function Page6() {
 
 
-    const breakPoints= [ {
-        width:768, itemsToShow:3
-    }]
+
 
     return (
         <>
@@ -20,14 +29,23 @@ function Page6() {
                 <h1>Gallery</h1>
             </div>
 
-
-
-
-            <div className='conatiner-gallery'>
-                <Carousel breakPoints={breakPoints}>
-                    <ItemGalley><img src={blog3} alt='school' /></ItemGalley>
-                    <ItemGalley><img src={blog2} alt='school' /></ItemGalley>
-                    <ItemGalley><img src={blog1} alt='school' /></ItemGalley>
+            <div className="gallery">
+                <Carousel itemsToShow={3} className="carousel" showStatus={false}
+                    showIndicators={false}
+                    infiniteLoop={true}
+                    useKeyboardArrows={true}
+                    autoPlay={true}
+                    interval={3000}
+                    transitionTime={500}
+                    stopOnHover={true}
+                    enableAutoPlay={true}
+                    autoPlaySpeed={3500}
+                    pagination={false}>
+                    {items.map((item) => (
+                        <div className="item" key={item.id}>
+                            <img src={item.url} alt={`Item ${item.id}`} />
+                        </div>
+                    ))}
                 </Carousel>
             </div>
 
@@ -64,6 +82,37 @@ function Page6() {
                         <button>Read More</button>
                     </div>
                 </div>
+            </div>
+
+
+
+
+            {/*  -------------------------    EVENTS       ------------------------- */}
+
+
+
+            <div className='events-title'>
+                <h1>Events</h1>
+            </div>
+
+            <div className="gallery">
+                <Carousel itemsToShow={3} className="carousel" showStatus={false}
+                    showIndicators={false}
+                    infiniteLoop={true}
+                    useKeyboardArrows={true}
+                    autoPlay={true}
+                    interval={3000}
+                    transitionTime={500}
+                    stopOnHover={true}
+                    enableAutoPlay={true}
+                    autoPlaySpeed={3500}
+                    pagination={false} >
+                    {items.map((item) => (
+                        <div className="item" key={item.id}>
+                            <img src={item.url} alt={`Item ${item.id}`} />
+                        </div>
+                    ))}
+                </Carousel>
             </div>
 
         </>

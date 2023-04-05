@@ -105,35 +105,106 @@ button:hover{
    margin: 15px 0px 10px;
 }
 
-.gallery-img{
-    height: 84%;
-    width: 92%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 32px;
-    border-radius: 6px;
-}
 
 
-.title-gallery {
-    color: white;
-    font-weight: 300;
-    position: absolute;
-    left: 20px;
-    top: 15px;
-}
 
 
-.container-gallery{
-    padding-top: 30px;
-    padding-left: 60px;
-    justify-content: center;
+
+
+
+
+.gallery {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .gallery-item {
+    height: 300px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 38px;
-}
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .item-gallery {
+    margin: 2rem auto;
+    width: 80%;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item {
+    margin: 1rem;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+
+
+
+
+  .rec.rec-arrow, .rec.rec-arrow:disabled {
+    background-color: lightgreen !important;
+    color: white !important;
+    border-color: lightgreen !important;
+  }
+  
+  .rec.rec-arrow:hover, .rec.rec-arrow:focus {
+    background-color: darkgreen !important;
+    border-color: darkgreen !important;
+  }
+  
+  .rec-pagination button {
+    background-color: lightgreen !important;
+    color: white !important;
+    border-color: lightgreen !important;
+  }
+  
+  .rec-pagination button.rec-dot_active {
+    background-color: darkgreen !important;
+    border-color: darkgreen !important;
+  }
+  
 
 
 
   
+
+
+  
+
+/* ---------------- EVENTS  ----------------------  */
+
+
+.events-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.events-title h1{
+   padding: 0px; 
+   margin: 15px 0px 10px;
+}

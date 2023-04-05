@@ -107,6 +107,10 @@ button:hover{
     align-items: center;
 }
 
+.icons a{
+    text-decoration: none;
+}
+
 .icons h3{
     padding: 0px 0px 0px 5px;
 }
