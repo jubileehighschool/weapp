@@ -1,0 +1,56 @@
+.page3-image img{
+    width: 420px;
+    height: 300px;
+    margin: 60px 10px 25px 60px;
+}
+
+.page3whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3content-1{
+    margin: 20px;
+}
+
+
+.page3content-1 h2{
+    color:#609966;
+    font-size: 50px;
+    margin: 0;
+}
+
+.page3content-1 p{
+    color:black;
+    font-size: 22px;
+}
+
+
+
+
+
+.page3content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.p3sc{
+    margin:10px 70px 15px 100px;
+}
+
+.p3sc h2{
+    color:black;
+    font-size: 50px;
+    font-weight: initial;
+    margin: 0;
+}
+
+.p3sc h4{
+    color:black;
+    font-size: 18px;
+    margin: 5px;
+}
+

@@ -1,0 +1,210 @@
+
+
+.blog-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.img-blog{
+    height: 150px;
+    width: 90%;
+}
+
+.card-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ECE9E6;
+  background: linear-gradient( #FFFFFF);
+  margin: 20px;
+  transition: 0.4s;
+}
+
+.cards:hover{
+    box-shadow: 5px 10px #88d58f;
+}
+
+
+.card-info{
+    padding: 25px;
+}
+
+
+.card-info h4{
+    margin: auto;
+  text-align: left;
+  font-size: 26px;
+}
+
+.card-info p{
+    text-align: justify;
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 18px;
+}
+
+
+
+button {
+    background-color: #3EDD84;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    /* display: block; */
+    font-size: 16px;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: 'merriweather';
+    transition: 0.4s;
+}
+
+
+button:hover{
+    background-color:#237e4b ;
+    color: white;
+}
+
+
+
+
+
+
+/* -------------------- GALLERY ---------------------------- */
+
+
+
+.gallery-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.gallery-title h1{
+   padding: 0px; 
+   margin: 15px 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+.gallery {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .gallery-item {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .item-gallery {
+    margin: 2rem auto;
+    width: 80%;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item {
+    margin: 1rem;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+
+
+
+
+  .rec.rec-arrow, .rec.rec-arrow:disabled {
+    background-color: lightgreen !important;
+    color: white !important;
+    border-color: lightgreen !important;
+  }
+  
+  .rec.rec-arrow:hover, .rec.rec-arrow:focus {
+    background-color: darkgreen !important;
+    border-color: darkgreen !important;
+  }
+  
+  .rec-pagination button {
+    background-color: lightgreen !important;
+    color: white !important;
+    border-color: lightgreen !important;
+  }
+  
+  .rec-pagination button.rec-dot_active {
+    background-color: darkgreen !important;
+    border-color: darkgreen !important;
+  }
+  
+
+
+
+  
+
+
+  
+
+/* ---------------- EVENTS  ----------------------  */
+
+
+.events-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.events-title h1{
+   padding: 0px; 
+   margin: 15px 0px 10px;
+}
