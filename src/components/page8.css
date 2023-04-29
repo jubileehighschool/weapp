@@ -1,0 +1,50 @@
+hr {
+    
+    margin-left: 80px;
+    width: 7%;
+    border-color: black;
+    border-width: 1px;
+}
+.page8{
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    flex-direction: row;
+}
+
+.leftPage8{
+    padding: 20px 0px 100px 80px; 
+}
+
+.leftPage8 h2{
+    margin-bottom: 0px;
+    
+    
+}
+.h2nd{
+    margin-top: 0px;
+    /* padding-left: 120px; */
+
+}
+.leftPage8 span{
+    color:#609966
+}
+
+.rightPage8{
+    display: flex;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.content img{
+height: 100px;
+border-radius: 50%;
+}
+
+.content p{
+    padding-left: 20px;
+    padding-top: 20px;
+}
