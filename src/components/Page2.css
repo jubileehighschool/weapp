@@ -1,0 +1,75 @@
+.page2{
+    background-color: #FFFFFF ;
+    
+}
+
+.page2_body{
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.page2_left{
+    padding-left: 40px; 
+}
+.page2_left h3{
+    font-weight:500;
+    color: #609966;
+}
+.page2_left h2 span{
+    
+    color: #609966;
+
+}
+.page2_left h2{
+    margin: 0px;
+}
+.textPage2{
+    margin: 0px;
+    
+}
+ul  {
+    list-style: none;
+    font-size: 19px;
+}
+.page2_right{
+    padding-top: 100px;
+    padding-left: 200px;
+}
+.box{
+    
+    height: 85%;
+    width: 90%;
+    background-color: #fff;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+        
+}
+.button {
+    background: #609966;
+    font-size: 19px;
+    width: 180px;
+    height: 60px;
+    border-width: 1px;
+    color: rgba(24, 1, 1, 1);
+    border-color: #18ab29;
+    font-weight: lighter;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    box-shadow: 1px 1px 0px 1px #fff;
+    text-shadow: 1px 1px 0px rgba(100, 163, 110, 1);
+    background: rgba(96, 153, 102, 1);
+    margin-left: 50px;
+
+}
+
+.shadow-effect {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ccc;
+}
+
+.shadow-effect:hover {
+    text-shadow: 0 0 10px #24c01f;
+}
