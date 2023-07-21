@@ -2,6 +2,8 @@ import React from 'react'
 import "./page7.css"
 function page7() {
   return (
+    <>
+    
     <div className='page7'>
       <div div className='top'>
         <div className='text'>
@@ -18,6 +20,8 @@ function page7() {
        {/* <EventSlider/> */}
       </div>
     </div>  
+
+    </>
     
   )
 }

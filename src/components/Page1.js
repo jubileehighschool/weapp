@@ -2,7 +2,8 @@ import React from 'react'
 import cover from "./images/cover.png"
 import "./Page1.css"
 import Carousel from 'react-elastic-carousel';
-import Item from './Item';
+import Item from '../Item';
+
 function Page1() {
   return (
     

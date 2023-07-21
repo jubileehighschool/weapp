@@ -7,9 +7,9 @@ a:link{
 }
 .Navbar{
     display: flex;
-    flex-direction: row;
-      
+    /* flex-direction: row; */
 }
+
 .Logo{
     padding: 20px 200px 0px 20px;
     height: 103px; 
@@ -25,7 +25,7 @@ a:link{
     font-family: 'Open Sans',sans-serif;
     color: #609966;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
     list-style-type: none;
 }

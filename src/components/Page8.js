@@ -2,11 +2,13 @@ import React from 'react';
 import "./page8.css";
 import Logo from "../components/images/Logo.png";
 import Carousel from 'react-elastic-carousel';
-import Item from './Item';
+import Item from '../Item';
 
 function Page8() {
 
   return (
+    <>
+    
     <div className='page8'>
       <div className='leftPage8'>
         <h1>HAPPY <span>PARENTS</span></h1>
@@ -47,6 +49,8 @@ function Page8() {
       </Carousel>
       </div>
     </div>
+    
+    </>
   )
 }
 

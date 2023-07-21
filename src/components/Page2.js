@@ -5,7 +5,9 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 function Page2() {
   return (
-    <div className='page2'>
+   <>
+   
+   <div className='page2'>
 
 
     <div className='page2_body' >
@@ -38,6 +40,8 @@ function Page2() {
     
     </div>
     </div>
+   
+   </> 
   )
 }
 
